@@ -1,0 +1,38 @@
+{
+  "name": "yor-css",
+  "version": "1.0.0",
+  "description": "A modern CSS library built with Sass and TypeScript",
+  "main": "dist/css/yor-css.css",
+  "scripts": {
+   
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "sass",
+    "typescript",
+    "bootstrap",
+    "responsive",
+    "ui"
+  ],
+  "author": "sdevawsm",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "sass": "^1.69.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdevawsm/yor-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sdevawsm/yor-css/issues"
+  },
+  "homepage": "https://github.com/sdevawsm/yor-css#readme"
+}
