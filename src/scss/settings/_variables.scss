@@ -1,6 +1,7 @@
 // Grid breakpoints
 $grid-breakpoints: (
   xs: 0,
+  xxs: 360px,  // novo breakpoint
   sm: 576px,
   md: 768px,
   lg: 992px,
@@ -10,6 +11,8 @@ $grid-breakpoints: (
 
 // Container max-widths per breakpoint
 $container-max-widths: (
+  xs: 100%,     // deixa fluido até 360px
+  xxs: 340px,   // cap entre 360–575px
   sm: 540px,
   md: 720px,
   lg: 960px,
