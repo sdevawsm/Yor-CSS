@@ -1,0 +1,18 @@
+// 1. Configuração e funções
+@use "./settings/functions" as functions; // Funções Sass como breakpoint-infix()
+@use "./settings/variables" as variables; // Variáveis globais
+@use "./mixins/breakpoints" as breakpoints; // Mixins de media queries
+@use "./mixins/containers" as containerMixins; // Mixin make-container()
+
+// // 2. Layout
+@use "./layout/containers" as layoutContainers; // Gera .container, .container-md, etc.
+
+// 3. Componentes (exemplo futuro)
+// @import "components/buttons";
+// @import "components/cards";
+// @import "components/forms";
+
+// 4. Utilitários (exemplo futuro)
+// @import "utilities/spacing";
+// @import "utilities/display";
+// @import "utilities/typography";

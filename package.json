@@ -8,10 +8,10 @@
     "build:dev": "npm run sass:dev && webpack --mode=development",
     "dev": "npm run sass:dev & webpack serve --mode=development",
     "watch": "npm run sass:watch & webpack --mode=development --watch",
-    "sass": "sass src/scss/yor-css.scss dist/css/yor-css.css --watch",
-    "sass:dev": "sass src/scss/yor-css.scss dist/css/yor-css.css",
-    "sass:build": "sass src/scss/yor-css.scss dist/css/yor-css.css --style=compressed",
-    "sass:watch": "sass src/scss/yor-css.scss dist/css/yor-css.css --watch",
+    "sass": "sass src/scss/yor.scss dist/css/yor.css --watch",
+    "sass:dev": "sass src/scss/yor-css.scss dist/css/yor.css",
+    "sass:build": "sass src/scss/yor.scss dist/css/yor.css --style=compressed",
+    "sass:watch": "sass src/scss/yor.scss dist/css/yor.css --watch",
     "clean": "rm -rf dist/*"
   },
   "keywords": [
